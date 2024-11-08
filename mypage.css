@@ -5,7 +5,6 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif; /* Устанавливаем шрифт Poppins для текста */
   font-family: "DM Sans", sans-serif; /* Переопределяем шрифт на DM Sans, он применяется вместо Poppins */
 }
 
