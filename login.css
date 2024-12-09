@@ -1,47 +1,40 @@
 form {
-  width: 300px; 
-  margin: 50px auto;
-  padding: 20px;
-  border: 1px solid #baf3a6;
-  border-radius: 10px;
-  box-shadow: 0 0 10px #4caf50;
-  background-color: #9c4747;
+  width: 300px; /* Фиксированная ширина формы */
+  margin: 50px auto; /* Центрирование формы по горизонтали и отступ сверху */
+  padding: 20px; /* Внутренние отступы внутри формы */
+  border: 1px solid #baf3a6; /* Зеленая рамка вокруг формы */
+  border-radius: 10px; /* Округленные углы формы */
+  box-shadow: 0 0 10px #4caf50; /* Зеленая тень вокруг формы */
 }
-
 h2 {
-  text-align: center;
-  color: #4CAF50;
+  text-align: center; /* Выравнивание текста заголовка по центру */
+  color: #4CAF50; /* Зеленый цвет текста */
 }
-
 p {
-  font-size: 20px;
-  color: #666;
+  font-size: 20px; /* Размер текста абзаца */
+  color: #666; /* Серый цвет текста */
 }
-
 input {
-  width: 100%;
-  padding: 10px; 
-  margin: 5px 0 15px; 
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-sizing: border-box;
+  width: 100%; /* Ширина поля ввода занимает всю ширину формы */
+  padding: 10px; /* Внутренние отступы внутри поля */
+  margin: 5px 0 15px; /* Отступы между полями ввода */
+  border: 1px solid #ccc; /* Серый цвет рамки поля */
+  border-radius: 5px; /* Округленные углы поля */
+  box-sizing: border-box; /* Учет внутренних отступов в общей ширине */
 }
-
 button {
-  width: 100%;
-  padding: 10px;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+  width: 100%; /* Кнопка занимает всю ширину формы */
+  padding: 10px; /* Внутренние отступы внутри кнопки */
+  background-color: #4CAF50; /* Зеленый фон кнопки */
+  color: white; /* Белый цвет текста на кнопке */
+  border: none; /* Убираем рамку */
+  border-radius: 5px; /* Округленные углы кнопки */
+  cursor: pointer; /* Изменение курсора при наведении на кнопку */
 }
-
 button:hover {
-  background-color: #4CAF50;
+  background-color: #45a049; /* Темно-зеленый фон кнопки при наведении */
 }
-
-a{
-  text-decoration: none;
-  color: #4CAF50;
+a {
+  text-decoration: none; /* Убираем подчеркивание текста ссылки */
+  color: #4CAF50; /* Зеленый цвет текста ссылки */
 }
